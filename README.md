@@ -1,7 +1,7 @@
 # Stock-Prediction-Model
 This project is a Long Short-Term Memory (LSTM) model designed to predict stock prices using sequential data. It leverages historical stock price data to forecast the next day's stock price. The project includes preprocessing, model training, and evaluation.
 
-**Features
+<u>**Features**<u>
 
 Data Preprocessing:
 

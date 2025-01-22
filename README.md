@@ -55,25 +55,25 @@ Required Libraries
 
 <h2><u>How To Use</u></h2>
 
-Run the Notebook:
+1. Run the Notebook:
 Open the Stock_Predictor.ipynb file in Jupyter Notebook or JupyterLab.
 
-Enter Stock Symbol:
+2. Enter Stock Symbol:
 Enter ticker symbol when prompted to fetch data for dsired stock  
 
-Enter Time Span: 
+3. Enter Time Span: 
 Enter the starting and ending date of data collection in format `YYYY-MM-DD`
 
-Preprocess Data:
+4. Preprocess Data:
 The notebook will fetch stock data, normalize it, and create training/testing sequences.
 
-Train the Model:
+5. Train the Model:
 Train the LSTM model using the preprocessed data. The training process includes validation and early stopping.
 
-Predict Stock Prices:
+6. Predict Stock Prices:
 Use the trained model to predict the next day's stock price based on the last 100 days of data.
 
-Evaluate Model Performance:
+<h2><u>Evaluate Model performance</u></h2>
 
 - Compare predicted prices with true values.
 
@@ -98,25 +98,3 @@ Measures the average squared difference between predicted and actual values.
 Root Mean Squared Error (RMSE):
 
 Provides the error in the same units as the target variable, making it more interpretable.
-
-Example Results
-
-True Prices (y_true): [125.34, 126.21, 127.15, ...]
-Predicted Prices: [124.89, 126.04, 127.35, ...]
-
-Mean Squared Error: 0.0024
-Root Mean Squared Error: 0.049
-
-
-
-License
-
-This project is licensed under the MIT License.
-
-Acknowledgments
-
-Keras and TensorFlow for the deep learning framework.
-
-Yahoo Finance API for stock price data.
-
-Community resources for guidance on LSTM implementations.
